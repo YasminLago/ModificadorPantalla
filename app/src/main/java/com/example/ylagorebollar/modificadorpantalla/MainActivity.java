@@ -19,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
         if(findViewById(R.id.text_pantalla_grande)==null){
             pantallas=true;
             Toast toast = Toast.makeText(getApplicationContext(), "Pantalla grande", Toast.LENGTH_SHORT);
